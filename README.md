@@ -48,7 +48,9 @@ sui_counter_dapp/
 ### Functions (Function - Description): 
 
 `create_counter(clock: &Clock, ctx: &mut TxContext)` -  Creates and transfers a new `Counter` object
+
 `increment(counter: &mut Counter, clock: &Clock, ctx: &mut TxContext)` - Increments an existing counter, emits event
+
 `get_value(counter: &Counter)` -  Returns current counter value
 
 
